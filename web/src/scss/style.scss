@@ -1,0 +1,21 @@
+$pagination-color: #fff;
+$pagination-active-color: rgb(62,104,175);
+html{font-size: 13px;}
+body{
+  background-color: rgb(237, 237, 237);
+}
+.swiper-container{
+.swiper-pagination-bullet{
+  background-color: $pagination-color;
+  opacity: 1;
+  border-radius: 20%;
+  margin:0 5px;
+  &:focus{
+    outline: -webkit-focus-ring-color auto 0px;
+  }
+}
+.swiper-pagination-bullet-active{
+  background-color: $pagination-active-color;
+  opacity: 1;
+}
+}
